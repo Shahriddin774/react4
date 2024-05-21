@@ -6,8 +6,8 @@ const MainPage = () => {
     return (
         <div>
             <h1>Main Page</h1>
-            <About info={{title: "Some Title", body:"Some body"}} />
-            <Title text="Hello world" />
+            <About title={'title1'} body={'body1'}/>
+            <Title props={'props1'}/>
         </div>
     );
 }

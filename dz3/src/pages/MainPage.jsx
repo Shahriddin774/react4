@@ -5,7 +5,7 @@ import styles from './MainPage.module.css';
 const MainPage = () => {
     return (
         <div className={styles.mainPage}>
-            <Description title="Title" description="description" />
+            <Description title="Title" description="description"/>
         </div>
     );
 };
