@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.container {
+  margin: 20px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.list-container {
+  margin-top: 20px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.list-item button {
+  margin-left: 10px;
+}
