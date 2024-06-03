@@ -1,16 +1,6 @@
-import React, { useState, useEffect } from 'react';
-function MainPage({ user }) {
-    const [state, setState] = useState({ name: '', lastname: '' });
+import React from 'react';
 
-    useEffect(() => {
-        setState(user);
-    }, [user]);
-
-    return (
-        <div>
-            <h1>Добро пожаловать {state.name} {state.lastname}, мы тебя ждали</h1>
-        </div>
-    );
-}
-
+const MainPage = () => {
+    return <h1>Welcome to the Main Page!</h1>;
+};
 export default MainPage

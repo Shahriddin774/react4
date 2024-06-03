@@ -1,16 +1,7 @@
-import React, { useState, useEffect } from 'react';
-function ErrorPage({ user }) {
-    const [state, setState] = useState({ name: '', lastname: '' });
+import React from 'react';
+import App from "../App";
 
-    useEffect(() => {
-        setState(user);
-    }, [user]);
-
-    return (
-        <div>
-            <h1>Тебе сюда нельзя - {state.name} {state.lastname}</h1>
-        </div>
-    );
-}
-
-export default ErrorPage;
+export const ErrorPage = () => {
+    return <h1>Access Denied. Incorrect </h1>;
+};
+export default ErrorPage
