@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function PostForm({ onSubmit, register }) {
     return (
         <form onSubmit={onSubmit}>
